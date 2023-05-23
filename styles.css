@@ -1,0 +1,48 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.nota{
+    height: 500px;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: teal;
+}
+.topico{
+    background-color: rgb(0, 95, 95) !important;
+    font-size: 20px;
+}
+.list-group-item{
+    background-color: #e9c55a00;
+    color: white;
+    
+}
