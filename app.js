@@ -46,13 +46,14 @@ document.getElementById('addTaskSundayButton').addEventListener('click', functio
     addTaskByDay('Domingo', taskListSunday, taskInputSunday);
 });
 
+
 // Função para adicionar tarefa
 function addTaskByDay(day, taskList, taskInput) {
     const taskText = taskInput.value.trim();
     if (taskText !== '') {
         const taskItem = document.createElement('li');
         taskItem.classList.add('list-group-item');
-        taskItem.innerText = taskText;
+        taskItem.innerText = `${taskList.children.length + 1}. ${taskText}`;
         taskList.appendChild(taskItem);
         taskInput.value = '';
     }
